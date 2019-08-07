@@ -19,6 +19,9 @@ Smart Brute Force Method
 Fermat Primality Test
 - This algorithm involves choosing an integer k that is coprime to N, and calculating k^(N-1) mod N.  If this is equal to 1, then N is usually prime (there exists prime numbers that break this rule).  However, due to integers in C++ having an integer maximum size of 32 bits, this algorithm does not scale well in the current implementation.
 
+Included in the repo is a MATLAB file for displaying the generated data, two example .txt files, and the figure created from the MATLAB code.
+
+
 To compile and run the program, enter the following commands at the terminal:
 
 g++ -0 main main.cpp
